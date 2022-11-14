@@ -19,6 +19,8 @@ namespace ProgrammingStuff
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            // 4
+
             // char c = 'a';
             // int d = (int) c;
 
@@ -26,19 +28,25 @@ namespace ProgrammingStuff
             // int n = (int)m + 5;
             // char o = (char)n;
 
+            // 5
 
             // float a2 = 3.54f;
             // double b2 = 2.44;
             // decimal c2 = 1.35m;
 
+            // 6
 
             // Person p = new Person();
             // Person p2 = new Person();
 
 
+            // 7
+
             // string s = "This is a string";
             // char c = s[0];
 
+
+            // 8
 
             // string word = "Bonjour";
             // int wordLength = word.Length;
@@ -50,14 +58,36 @@ namespace ProgrammingStuff
             // string firstWord = phrase.Substring(0, 3);
 
 
+            // 9
+
             // int anint = 5;
             // float aflt = 3.57f;
             // string aintStr = anint.ToString();
             // string fltStr = aflt.ToString();
 
 
-            string text = "123";
-            int textAsInt = Convert.ToInt32(text);
+            // string text = "123";
+            // int textAsInt = Convert.ToInt32(text);
+
+            // 10
+
+            // int a = 5;
+            // int b = 5;
+            // if (a == b)
+            // {
+            //    Console.WriteLine("Same!");
+            // }
+
+            // 11
+            Console.WriteLine("Enter a number");
+            int number = Convert.ToInt32(Console.ReadLine());
+            if (number % 2 == 0)
+            {
+                Console.WriteLine("Even");
+            } else
+            {
+                Console.WriteLine("odd");
+            }
         }
     }
 }
