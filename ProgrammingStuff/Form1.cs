@@ -95,6 +95,23 @@ namespace ProgrammingStuff
             //{
             //    Console.WriteLine("Number is odd");
             //}
+
+            //13
+            //void PrintMessage()
+            //{
+            //Console.WriteLine("A message");
+            //}
+
+            //PrintMessage();
+
+            //14
+            void AddNumbers(int a, int b)
+            {
+                int c = a + b;
+                Console.WriteLine("The answer is "+c);
+            }
+
+            AddNumbers(4, 6);
         }
     }
 }
